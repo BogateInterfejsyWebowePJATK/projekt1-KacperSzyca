@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e3b7662f-90d9-4f0d-b957-c853fce9279e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1nLo8LyWK891xSIivBMQ7wxaIG5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e3b7662f-90d9-4f0d-b957-c853fce9279e" name="Default Changelist" comment="" />
+      <created>1611178571720</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611178571720</updated>
+      <workItem from="1611178572806" duration="561000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="3375" y="277" key="CommitChangelistDialog2" timestamp="1611179217287">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="3375" y="277" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1611179217287" />
+    <state x="3526" y="402" key="RollbackChangesDialog" timestamp="1611178895640">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="3526" y="402" key="RollbackChangesDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1611178895640" />
+    <state x="3687" y="613" key="VCS.ChangelistChooser" timestamp="1611179224264">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="3687" y="613" key="VCS.ChangelistChooser/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1611179224264" />
+  </component>
+</project>
