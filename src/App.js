@@ -1,24 +1,34 @@
-import logo from './logo.svg';
+import React, {useRef, useState} from 'react';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  const [number, setNumber] = useState(0);
+  const [amount, setAmount] = useState(0);
+  const [iteration, setIteration] = useState(0);
+  const numberRef = useRef();
+
+
+  const submit = event =>
+  {
+    event.preventDefault();
+    setIteration(iteration+1);
+    setNumber(parseInt(numberRef.current.value) + number);
+    if( number === 0)
+      setAmount(1);
+    else
+      setAmount(number / iteration);
+  }
+
+  return(
+      <div>
+        <form onSubmit={submit}>
+          Liczba:
+          <input type="number" pattern="[0-9]*" ref={numberRef} required={true}/>
+          <button type={"submit"}>Policz</button>
+        </form>
+        <h3>Suma: {number}</h3>
+        <h3>Średnia: {amount}</h3>
+      </div>
   );
 }
 
